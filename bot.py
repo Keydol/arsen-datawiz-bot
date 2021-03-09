@@ -9,8 +9,6 @@ import config
 
 import requests
 
-API_TOKEN = "1558074274:AAHhjZ4Ni-LWtkUFOTtpjYUOJzlxbQfuV3Q"
-
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=config.API_TOKEN)
 dp = Dispatcher(bot)
